@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+
+        <div class="nav">
+            <li>
+                <a href="/ProjetoWeb/tela-inicial/index.html">Inicio</a>
+                <a href="">Login</a>
+                <a href="/ProjetoWeb/Tela-sobre-nos/tela.html">Sobre</a>
+                <a href="/ProjetoWeb/tela-servicos/tela.html">Serviços</a>
+                <a href="/ProjetoWeb/tela-contato/index.html">Contato</a>
+            </li>
+        </div>
+    </div>
+
+
+    <div class="formulario">
+
+        <form name="meu_form">
+
+            <h1>Entre em contato</h1>
+            
+            <div class="inputs">
+                <label for="">Nome</label>
+                <input type="text" id="nomeid" required="required" name="nome" >
+            </div>
+
+            <div class="inputs">
+                <label for="">Fone</label>
+                <input type="tel" id="foneid" name="fone">
+            </div>
+
+            <div class="inputs">
+                <label for="">Email</label>
+                <input type="email" id="emailid" name="email" >
+            </div>
+
+            <textarea placeholder="Deixe sua opinião"></textarea>
+
+            <input type="submit" class="enviar" onclick="Enviar()" value="Enviar" id="btn-enviar"/>
+        </form>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
